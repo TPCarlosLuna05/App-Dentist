@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "dentista-app",
+    "slug": "dentista-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icono.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.dentista.app",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "52c9d2d9-51ae-4e21-a382-9228b8a19bf7"
+      }
+    }
+  }
+}
